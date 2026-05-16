@@ -94,7 +94,7 @@ Files not intended to be loaded into context, but rather used within the output 
 
 **Examples from other skills:**
 - Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
+- Frontend builder: HTML boilerplate project directories
 - Typography: Font files (.ttf, .woff2)
 
 **Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
@@ -171,7 +171,7 @@ the output Claude produces.
 
 Example asset files from other skills:
 - Brand guidelines: logo.png, slides_template.pptx
-- Frontend builder: hello-world/ directory with HTML/React boilerplate
+- Frontend builder: hello-world/ directory with HTML boilerplate
 - Typography: custom-font.ttf, font-family.woff2
 - Data: sample_data.csv, test_dataset.json
 

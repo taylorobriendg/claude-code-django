@@ -95,7 +95,7 @@ Documentation and reference material intended to be loaded as needed into contex
 Files not intended to be loaded into context, but rather used within the output Claude produces.
 
 - **When to include**: When the skill needs files that will be used in the final output
-- **Examples**: `assets/logo.png` for brand assets, `assets/slides.pptx` for PowerPoint templates, `assets/frontend-template/` for HTML/React boilerplate, `assets/font.ttf` for typography
+- **Examples**: `assets/logo.png` for brand assets, `assets/slides.pptx` for PowerPoint templates, `assets/frontend-template/` for HTML boilerplate, `assets/font.ttf` for typography
 - **Use cases**: Templates, images, icons, boilerplate code, fonts, sample documents that get copied or modified
 - **Benefits**: Separates output resources from documentation, enables Claude to use files without loading them into context
 
@@ -243,8 +243,8 @@ Example: When building a `pdf-editor` skill to handle queries like "Help me rota
 
 Example: When designing a `frontend-webapp-builder` skill for queries like "Build me a todo app" or "Build me a dashboard to track my steps," the analysis shows:
 
-1. Writing a frontend webapp requires the same boilerplate HTML/React each time
-2. An `assets/hello-world/` template containing the boilerplate HTML/React project files would be helpful to store in the skill
+1. Writing a frontend webapp requires the same boilerplate HTML each time
+2. An `assets/hello-world/` template containing the boilerplate HTML project files would be helpful to store in the skill
 
 Example: When building a `big-query` skill to handle queries like "How many users have logged in today?" the analysis shows:
 
