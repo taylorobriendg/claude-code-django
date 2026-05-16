@@ -49,6 +49,7 @@
 - Use `select_related()` / `prefetch_related()` to avoid N+1 queries
 
 ### Templates & HTMX
+- Use HTMX only where it's required (partial updates, progressive enhancement); otherwise keep templates relatively vanilla
 - Use template inheritance (`{% extends %}`, `{% block %}`)
 - Create partial templates for HTMX responses (`_partial.html` naming)
 - Always include `hx-indicator` for loading states
